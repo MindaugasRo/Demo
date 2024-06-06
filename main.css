@@ -1,0 +1,48 @@
+#left {
+    border: 1px solid black;
+}
+
+#right {
+    border: 3px dashed red;
+}
+#center {
+    color: blueviolet;
+    font-weight: 900;
+    margin: 10px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 1%;
+}
+
+.sides {
+    display: inline-block;
+    width: 50%;
+    background-color: antiquewhite;
+
+}
+
+#leftP {
+    color: blueviolet;
+    font-weight: 900;
+}
+#rightP{
+    color: red; 
+    font-style: italic;
+}
+p{
+    font-size: 12px;
+}
+#sidesContainer{
+    width: 100%;
+    font-size: 0;
+}
+body, body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
